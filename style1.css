@@ -1,0 +1,74 @@
+/*модуль 6, часть 1, задание 1*/
+
+.p1{
+	background-color: #008000;
+}
+
+.p1:hover{
+	background-color: #ffff00;
+}
+
+.p1:active {
+  background-color: #ff0000;   
+}
+
+.p2{
+	background-color: #ee82ee;
+}
+
+.p2:hover{
+	background-color: #a52a2a;
+}
+
+.p2:active {
+  background-color: #ffd700;   
+}
+
+/*модуль 6, часть 1, задание 2*/
+
+input:focus{
+	border-color: #008000;
+}
+
+/*модуль 6, часть 1, задание 3*/
+
+.task3:nth-child(even){
+background-color: #808080;
+}
+
+/*модуль 6, часть 1, задание 4*/
+
+.task4:first-letter{
+	font-size: 2em;
+	color: #ff0000;
+	font-style: Georgia;
+}
+
+/*модуль 6, часть 1, задание 5*/
+/*символ добавляется к параграфам задания 4*/
+
+ .task4:after {
+      content: "*";
+    }
+
+  /*модуль 6, часть 1, задание 6*/
+/*символ добавляется к параграфам задания 3*/
+
+.task3:before {
+      content: "\2602";
+    }
+
+	/*модуль 6, часть 1, задание 7*/
+
+	.task7{
+		background-color: black;
+		width: 50px;
+		height: 25px;
+		margin-left: 100px;
+		padding-top: 1px;
+	}
+
+	.task7:before {
+      content: "\25c0";
+      margin-left: -12px;
+    }
