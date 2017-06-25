@@ -1,61 +1,68 @@
-table{
-	background-color: #fcfcfc;
-	width: 700px;
-	border-spacing: 0;
-	font-family: arial;
-	box-shadow: 0 0 10px;
-	border-radius: 10px;
-	padding: 10px;
+table {
+    background-color: #fcfcfc;
+    width: 700px;
+    border-spacing: 0;
+    font-family: arial;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
-.main{
-	border-top: 1px solid #d6d6d6;
-}
-.six_line, .seven_line{
-	text-align: right;
+.main {
+    border-top: 1px solid #d6d6d6;
 }
 
-.six_line{
-	font-weight: bold;
+.six_line,
+.seven_line {
+    text-align: right;
 }
 
-.seven_line{
-	color: #b0afaf;
+.six_line {
+    font-weight: bold;
 }
 
-.eigth_line{
-	text-align: center;
-	font-variant: small-caps;
-	font-style: italic;
-	text-decoration: none;
-}
-.red{
-	color: #ff0000;
-}
-.input{
-	background-color: #ff0000;
-	color: white;
-	display: block;
-	width: 25px;
-	height: 25px;
-	text-align: center;
-	line-height: 25px;
-	text-decoration: none;
-}
-.delete{
-	background-color: #f73e3e;
-	color: white;
-	text-decoration: none;
-	width: 100px;
-	height: 25px;
-	display: block;
-	text-align: center;
-	line-height: 25px;
-}
-th{
-	text-align: left;
+.seven_line {
+    color: #b0afaf;
 }
 
-td, th{
-	height: 60px;
+.eigth_line {
+    text-align: center;
+    font-variant: small-caps;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.input {
+    background-color: #ff0000;
+    color: white;
+    display: block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.delete {
+    background-color: #f73e3e;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    height: 25px;
+    display: block;
+    text-align: center;
+    line-height: 25px;
+}
+
+th {
+    text-align: left;
+}
+
+td,
+th {
+    height: 60px;
 }

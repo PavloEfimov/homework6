@@ -1,12 +1,14 @@
-table{
-	background-color: #fcfcfc;
-	width: 700px;
-	height: 200px;
-	text-align: left;
-	border-spacing: 0;
-	margin-left: 20px;
-	padding-left: 20px;
+table {
+    background-color: #fcfcfc;
+    width: 700px;
+    height: 200px;
+    text-align: left;
+    border-spacing: 0;
+    margin-left: 20px;
+    padding-left: 20px;
 }
-th, td{
-	border-bottom: 1px solid #d6d6d6;
+
+th,
+td {
+    border-bottom: 1px solid #d6d6d6;
 }
